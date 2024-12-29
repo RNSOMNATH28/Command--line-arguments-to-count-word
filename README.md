@@ -18,8 +18,21 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
-
+```
+Developed by:R N SOMNATH
+Register no: 24000580
+import sys
+fp=open(sys.argv[1])
+wordcount=0
+for i in fp:
+    words=i.split()
+    wordcount+=len(words)
+print("Total no of words in file is",wordcount)
+fp.close()
+```
 ### OUTPUT:
+![image](https://github.com/user-attachments/assets/290fcef1-1613-4d4e-9c73-20c5138929a9)
+
 
 
 
